@@ -1,0 +1,46 @@
+!SESSION 2022-07-11 14:39:31.389 -----------------------------------------------
+eclipse.buildId=4.24.0.I20220607-0700
+java.version=17.0.3
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=macosx, ARCH=x86_64, WS=cocoa, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product -keyring /Users/sihyeonbae/.eclipse_keyring
+Command-line arguments:  -os macosx -ws cocoa -arch x86_64 -product org.eclipse.epp.package.jee.product -keyring /Users/sihyeonbae/.eclipse_keyring
+
+!ENTRY org.eclipse.jface 2 0 2022-07-11 14:39:49.423
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 14:39:49.423
+!MESSAGE A conflict occurred for COMMAND+SHIFT+T:
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,유형 열기,
+		Java 편집기에서 유형을 엽니다.,
+		Category(org.eclipse.ui.category.navigate,탐색,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5069a91b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(COMMAND+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@443d94ae,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-07-11 14:39:49.423
+!MESSAGE A conflict occurred for ALT+COMMAND+R:
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.rename,이름 바꾸기,
+		선택된 항목의 이름을 바꿉니다.,
+		Category(org.eclipse.ui.category.file,파일,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@322399e6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
+Binding(ALT+COMMAND+R,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.edit.text.java.rename.element,이름 바꾸기 - 리팩토링,
+		선택된 요소의 이름을 바꿉니다.,
+		Category(org.eclipse.jdt.ui.category.refactoring,리팩터 - Java,Java 리팩토링 조치입니다.,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2b551e7b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,cocoa,system)
